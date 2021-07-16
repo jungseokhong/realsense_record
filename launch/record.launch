@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="rosbag" type="record" name="realsense_record"
+	args="record -o /home/irvlab/data/realsense /camera/color/image_raw /camera/depth/image_rect_raw"/>
+</launch>
