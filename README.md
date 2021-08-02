@@ -4,3 +4,7 @@
 2. ssh nano using tmux
 3. roslaunch realsense2_camera rs_camera.launch
 4. roslaunch realsense_record record.launch
+
+
+# tara_record
+1. roslaunch uvc_camera tara_launch.launch
